@@ -1,0 +1,27 @@
+version: "3.8"
+
+services:
+  json-server:
+    image: typicode/json-server
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: json-server
+    restart: unless-stopped
+    ports:
+      - "5000:5000"
+    volumes:
+      - "./db.json:/app/db.json"
+      - "data:/app"
+    networks:
+      - backend
+    tty: true
+
+volumes:
+  data:
+    name: json-server_data
+    driver: local
+
+networks:
+  backend:
+    external: true
