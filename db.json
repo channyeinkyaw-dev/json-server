@@ -1,34 +1,90 @@
 {
-  "profile": {
-    "name": "typicode"
-  },
-  "posts": [
+  "users": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "name": "Rosa O'Kon-Kulas",
+      "id": 1
     },
     {
-      "id": 2,
-      "title": "json-server is nice",
-      "author": "chan"
+      "name": "Colin Runolfsson",
+      "id": 2
     },
     {
-      "id": 3,
-      "title": "Hello, world!",
-      "author": "chan"
-    },
-    {
-      "id": 4,
-      "title": "Hi, there!",
-      "author": "chan"
+      "name": "Michelle Mayert Sr.",
+      "id": 3
     }
   ],
-  "comments": [
+  "albums": [
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "userId": 2,
+      "title": "Handmade Fresh Bacon",
+      "id": 14
+    },
+    {
+      "userId": 3,
+      "title": "Awesome Wooden Pizza",
+      "id": 15
+    },
+    {
+      "userId": 1,
+      "title": "Sleek Frozen Bacon",
+      "id": 17
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://loremflickr.com/150/150/abstract?lock=5891595360534528",
+      "albumId": 17,
+      "id": 1
+    },
+    {
+      "url": "https://loremflickr.com/150/150/abstract?lock=6424129114734592",
+      "albumId": 17,
+      "id": 2
+    },
+    {
+      "url": "https://loremflickr.com/150/150/abstract?lock=2524049997561856",
+      "albumId": 17,
+      "id": 3
+    },
+    {
+      "url": "https://loremflickr.com/150/150/abstract?lock=3587258443628544",
+      "albumId": 17,
+      "id": 4
+    },
+    {
+      "url": "https://loremflickr.com/150/150/abstract?lock=8915131750678528",
+      "albumId": 17,
+      "id": 5
+    },
+    {
+      "url": "https://loremflickr.com/150/150/abstract?lock=5576887103389696",
+      "albumId": 17,
+      "id": 6
+    },
+    {
+      "url": "https://loremflickr.com/150/150/abstract?lock=1607962843938816",
+      "albumId": 17,
+      "id": 7
+    },
+    {
+      "url": "https://loremflickr.com/150/150/abstract?lock=8982607905685504",
+      "albumId": 17,
+      "id": 8
+    },
+    {
+      "url": "https://loremflickr.com/150/150/abstract?lock=1949155354214400",
+      "albumId": 17,
+      "id": 9
+    },
+    {
+      "url": "https://loremflickr.com/150/150/abstract?lock=3857049964249088",
+      "albumId": 17,
+      "id": 10
+    },
+    {
+      "url": "https://loremflickr.com/150/150/abstract?lock=2659526327140352",
+      "albumId": 17,
+      "id": 11
     }
   ]
 }
